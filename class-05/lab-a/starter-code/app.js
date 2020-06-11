@@ -110,21 +110,21 @@ testSumArray(testArray);
 // Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // // Write your code here
-// var multArr = [2, 3, 4]; //eslint-disable-line
+var multArr = [2, 3, 4]; //eslint-disable-line
 
-// function multiplyArray(multArr) { //eslint-disable-line
-//     var multii = 1;
-//     for (var d = 0; d < multArr.length; d++) {
-//         multii = multiply(multii, multArr[d])[0];
-//     }
-//     var msg2 = "The numbers 2,3,4 have a product of 24.";
+function multiplyArray(multArr) { //eslint-disable-line
+    var multii = 1;
+    for (var d = 0; d < multArr.length; d++) {
+        multii = multiply(multii, multArr[d])[0];
+    }
+    var msg2 = "The numbers 2,3,4 have a product of 24.";
    
-//     return [multii, msg2];
-// }
+    return [multii, msg2];
+}
 
 
 // // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+testMultiplyArray(testArray);
 
 // // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 
