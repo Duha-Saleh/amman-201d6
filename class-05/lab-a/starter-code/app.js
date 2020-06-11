@@ -9,12 +9,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-var total=a+b;
-var message ="The sum of 4 and 7 is 11.";
-return[total,message];
+    var total = a + b;
+    var message = "The sum of 4 and 7 is 11.";
+    return [total, message];
 
 }
-testSum(4,7);
+testSum(4, 7);
 // Here is the test for sum(); uncomment it to run it
 // testSum(4, 7);
 
@@ -30,13 +30,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-var multi =a*b;
-var message2 ='The product of 5 and 9 is 45.';
-return[multi,message2]
+    var multi = a * b;
+    var message2 = 'The product of 5 and 9 is 45.';
+    return [multi, message2]
 }
 
 // Here is the test for multiply(); uncomment it to run it
-testMultiply(5,9);
+testMultiply(5, 9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -53,16 +53,15 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
-   var total =a+b+c;
-    var multi=a+b*c;
-    var msg1='4 and 7 and 5 sum to 16.'
-
-var msg2="'The product of 4 and 7 and 5 is 140.'"
-        return[total,msg1,multi,msg2]
+    var total1 = a + b + c;
+    var multii = a * b * c;
+    var msg1 = "4 and 7 and 5 sum to 16.";
+    var msg2 = "The product of 4 and 7 and 5 is 140.";
+    return [total1, multii, msg1, msg2]
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-testSumAndMultiply(4,7,5);
+testSumAndMultiply(4, 7, 5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -76,12 +75,15 @@ IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To
 
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
-// Write your code here
-//var testArray = [2, 3, 4]; //eslint-disable-line
+// // Write your code here
+// var testArray = [2, 3, 4]; //eslint-disable-line
 
-//function sumArray(sumArr) { //eslint-disable-line
-
-//}
+// function sumArray(testArray) { //eslint-disable-line
+//     var sum =
+//    var sm = sum(testArray);
+//     var msg3 = '2,3,4 was passed in as an array of numbers, and 9 is their sum.'
+//     return [sm, msg3];
+// }
 
 // Here is the test for sumArray(); uncomment it to run it
 
